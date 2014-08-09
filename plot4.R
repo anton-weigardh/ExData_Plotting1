@@ -44,7 +44,7 @@ colnames(data) <- names(firstRows)
   ## Variables: Various
   ## 4 different subplots will be created
 
-png(filename = "plot4.png", width = 480, height = 480, bg = "transparent", type = "cairo")
+png(filename = "plot4.png", width = 480, height = 480, type = "cairo")
 
  ## Create appropriate grid
 par(mfrow=c(2,2))

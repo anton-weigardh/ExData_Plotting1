@@ -43,6 +43,6 @@ colnames(data) <- names(firstRows)
   ## Type: Histogram
   ## Variable: Global Active Power 
 
-png(filename = "plot1.png", width = 480, height = 480, bg = "transparent", type = "cairo")
+png(filename = "plot1.png", width = 480, height = 480, type = "cairo")
 hist(data[["Global_active_power"]], xlab = "Global Active Power (kilowatts)", main = paste("Global Active Power"), col = "red")
 dev.off()

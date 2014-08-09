@@ -43,7 +43,7 @@ colnames(data) <- names(firstRows)
   ## Type: Plot
   ## Variable: Global Active Power
 
-png(filename = "plot2.png", width = 480, height = 480, bg = "transparent", type = "cairo")
+png(filename = "plot2.png", width = 480, height = 480, type = "cairo")
 plot(data[["Global_active_power"]], ylab = "Global Active Power (kilowatts)", xlab = "", type = "l", xaxt = "n")
 
   ## Set the appropriate ticks in x-axis.

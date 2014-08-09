@@ -43,7 +43,7 @@ colnames(data) <- names(firstRows)
   ## Type: Plot
   ## Variables: Sub_metering_1, Sub_metering_2 & Sub_metering_3
 
-png(filename = "plot3.png", width = 480, height = 480, bg = "transparent", type = "cairo" )
+png(filename = "plot3.png", width = 480, height = 480, type = "cairo" )
 plot(data[["Sub_metering_1"]], ylab = "Energy sub metering", xlab = "", type = "l", xaxt = "n")
   
   ## Adding additonal lines
