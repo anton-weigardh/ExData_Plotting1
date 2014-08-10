@@ -65,6 +65,6 @@ axis(1, c(1,length(data[["Sub_metering_1"]])/2, length(data[["Sub_metering_1"]])
 legend("topright", legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3"), col = c("black","red","blue"), lty = 1, lwd = 1,  bty='n', cex = 0.9)
 
   ## Bottomright (new figure for global reactive power)
-plot(data[["Global_reactive_power"]], ylab = "Global_reactive_power", xlab = "datetime", type = "l", xaxt = "n", lty = 1)
+plot(data[["Global_reactive_power"]], ylab = "Global_reactive_power", xlab = "datetime", type = "l", xaxt = "n", lty = 1, lwd = 0.8)
 axis(1, c(1,length(data[["Global_reactive_power"]])/2,length(data[["Global_reactive_power"]])), c("Thu","Fri","Sat"))
 dev.off()
